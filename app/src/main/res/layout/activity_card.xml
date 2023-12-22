@@ -45,11 +45,11 @@
       android:id="@+id/tvCard"
       android:layout_width="716dp"
       android:layout_height="289dp"
+      android:layout_marginTop="8dp"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintHorizontal_bias="0.466"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.868"
+      app:layout_constraintTop_toBottomOf="@+id/searchBar"
       tools:listitem="@layout/card_item" />
 </androidx.constraintlayout.widget.ConstraintLayout>
