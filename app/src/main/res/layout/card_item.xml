@@ -15,35 +15,32 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="258dp"
         android:layout_height="186dp"
-        android:background="@drawable/bgedittext"
+
         android:padding="8dp">
 
         <ImageView
             android:id="@+id/img_card_photo"
-            android:layout_width="262dp"
-            android:layout_height="127dp"
+            android:layout_width="239dp"
+            android:layout_height="138dp"
             android:scaleType="centerCrop"
-            card_view:layout_constraintBottom_toBottomOf="parent"
             card_view:layout_constraintEnd_toEndOf="parent"
             card_view:layout_constraintStart_toStartOf="parent"
             card_view:layout_constraintTop_toTopOf="parent"
-            card_view:layout_constraintVertical_bias="0.014"
             tools:src="@tools:sample/avatars" />
 
         <TextView
             android:id="@+id/tv_item_name"
-            android:layout_width="85dp"
-            android:layout_height="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:layout_toEndOf="@id/img_card_photo"
             android:gravity="center"
             android:textSize="20sp"
             android:textStyle="bold"
-            card_view:layout_constraintBottom_toBottomOf="parent"
-            card_view:layout_constraintEnd_toEndOf="parent"
-            card_view:layout_constraintHorizontal_bias="0.502"
-            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintEnd_toEndOf="@+id/img_card_photo"
+            card_view:layout_constraintHorizontal_bias="0.524"
+            card_view:layout_constraintStart_toStartOf="@+id/img_card_photo"
             card_view:layout_constraintTop_toBottomOf="@+id/img_card_photo"
-            card_view:layout_constraintVertical_bias="0.0"
             tools:text="@string/nama" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

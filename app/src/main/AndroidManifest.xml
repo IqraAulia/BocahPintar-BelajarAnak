@@ -16,7 +16,7 @@
         <activity
             android:name=".ui.upload.UploadActivity"
             android:exported="false"
-            android:screenOrientation="landscape"/>
+            android:screenOrientation="landscape" />
         <activity
             android:name=".ui.detail.DetailActivity"
             android:exported="false"
